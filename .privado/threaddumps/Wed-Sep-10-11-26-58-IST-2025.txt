@@ -1,0 +1,45 @@
+Wed Sep 10 11:26:58 IST 2025, Tagging ..., <not set>, <not set>, 0.15, 285.67, 4294.97
+"Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@18.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@18.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@18.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@43f3565b
+	at java.base@18.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@43f3565b
+	at java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@18.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:183)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=12 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=13 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@42ceaf8e
+	at java.base@18.0.2/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@42ceaf8e
+	at java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@18.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@18.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"Thread-0" prio=5 Id=15 TIMED_WAITING
+	at java.base@18.0.2/java.lang.Thread.sleep(Native Method)
+	at app//ai.privado.utility.StatsRecorder$TimeRecorder.run(StatsRecorder.scala:245)
+
+
+"Thread-1" prio=5 Id=16 RUNNABLE
+	at java.management@18.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@18.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@18.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//ai.privado.utility.StatsRecorder$ThreadDumpRecorder.run(StatsRecorder.scala:277)
+
+
+"DestroyJavaVM" prio=5 Id=28 RUNNABLE
+
+
